@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mohan General Store</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+
+        header {
+            background: linear-gradient(to right, #ff4da6, #a64dff);
+            color: white;
+            padding: 30px 10px;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 28px;
+        }
+
+        h2 {
+            color: #a64dff;
+            margin-top: 30px;
+        }
+
+        .section {
+            padding: 20px;
+        }
+
+        .products {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+            gap: 15px;
+            padding: 20px;
+        }
+
+        .card {
+            background: white;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        footer {
+            background: #222;
+            color: white;
+            padding: 15px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>MOHAN GENERAL STORE</h1>
+    <p>Cosmetics & Beauty Products</p>
+</header>
+
+<div class="section">
+    <h2>About Us</h2>
+    <p>
+        Welcome to Mohan General Store. We provide high quality cosmetics,
+        skincare, hair care, jewellery and daily beauty products at affordable prices.
+    </p>
+</div>
+
+<h2>Our Products</h2>
+
+<div class="products">
+    <div class="card">Face Creams</div>
+    <div class="card">Makeup Products</div>
+    <div class="card">Hair Oil & Shampoo</div>
+    <div class="card">Beauty Accessories</div>
+    <div class="card">Artificial Jewellery</div>
+    <div class="card">Nail Polish & Nail Art</div>
+</div>
+
+<footer>
+    <p>Contact: 9XXXXXXXXX</p>
+    <p>Location: Your City Name</p>
+</footer>
+
+</body>
+</html>
